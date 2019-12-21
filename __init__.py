@@ -12,6 +12,7 @@ if str(platform.python_version()).startswith("3"):
 else:
   reload(sys)
   sys.setdefaultencoding('utf8')
+  print("init OK!")
 
 import FileOpt as FileOpt
 import RegOpt as RegOpt
